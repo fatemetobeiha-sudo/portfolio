@@ -18,7 +18,7 @@ body{
 .border{
     border-style: none;
     background-color: var(--white);
-    width: 800px;
+    width: 70%;
     height: 50px;
     border-radius: 50px;
     display: flex;
@@ -35,7 +35,8 @@ body{
 }
 #font{
     color: var(--black);
-    font-family:var(--fonttop);
+    font-weight: bold;
+   /* font-family:var(--fonttop);*/
 }
 .logo{
     display: flex;
@@ -49,9 +50,31 @@ body{
     height: 40px;
     padding-top: -10px;
 }
+.part2{
+    display: flex;
+    gap: 2px;
+
+}
+
+.txt1{
+    margin: 0%;
+    padding: 0%;
+    color: var(--white);
+    font-size: 48px;
+    font-weight:bold;
+    /*font-family:;*/
+}
+.txt2{
+    color: var(--white);
+    font-size: 30px;
+    width: 520px;
+    
+    /*font-family:;*/
+}
 
 .img1{
     width: 30%;
     height: auto;
-
+    margin: 0%;
+    padding: 0%;
 }
